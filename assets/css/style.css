@@ -15,15 +15,93 @@ section p{
     font-weight: 300;
 }
 /* Contactos */
+main img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+main h1{
+    font-weight: 500;
+    font-size: 30px;
+}
 .contactos{
     width: 20%;
     background-color: white;
 }
+.contactos h1{
+    font-size: 20px;
+}
+.maria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border-top: solid rgb(183, 95, 255) 1px;
+    border-right: solid rgb(183, 95, 255) 1px;
+    text-align: left;
+    align-items: center;
+}
+.maria:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.estado{
+    padding-left: 15px;
+}
+.logos{
+    padding-right: 5px;
+}
 .contacto{
-
+    height: 120px;
+    border-top: solid rgb(183, 95, 255) 1px;
+    border-right: solid rgb(183, 95, 255) 1px;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    padding-left: 25px;
+}
+.contacto div{
+    padding-left: 15px;
+}
+.contacto:hover{
+    background-color: blueviolet;
+    color: white;
 }
 .button{
-
+    height: 120px;
+    border-top: solid rgb(183, 95, 255) 1px;
+    border-right: solid rgb(183, 95, 255) 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div .button{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
 }
 /* Seccion Principal */
 header img{
@@ -33,6 +111,7 @@ header h1{
     font-size: 45px;
 }
 header h6{
+    font-size: 15px;
     padding-left: 5px;
     padding-right: 5px;
 }
