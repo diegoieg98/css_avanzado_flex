@@ -4,3 +4,48 @@
     padding: 0%;
     font-family: 'Work Sans', sans-serif;
 }
+section{
+    display: flex;
+    min-height: 100vh;
+}
+section h1{
+    font-weight: 500;
+}
+section p{
+    font-weight: 300;
+}
+/* Contactos */
+.contactos{
+    width: 20%;
+    background-color: white;
+}
+.contacto{
+
+}
+.button{
+
+}
+/* Seccion Principal */
+header img{
+    border-radius: 10px;
+}
+header h1{
+    font-size: 45px;
+}
+header h6{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #f2e4ff;
+}
+.texto-principal{
+    display: flex;
+    padding-left: 30px;
+}
